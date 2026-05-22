@@ -1,9 +1,9 @@
 # Cybersecurity : CSN150
 
-## Project: ESP32 XXXXXXXX
+## Project: ESP32 CAM
 
 ## Purpose
-Set up the ESP32 and Arduino environment. Execute the sketch **WiFiScanner**.
+Set up ESP32 CAM.
 
 ## Equipment
 - ESP32Cam
@@ -22,7 +22,7 @@ Set up the ESP32 and Arduino environment. Execute the sketch **WiFiScanner**.
 1. Installed Arduino IDE.
 2. Added the ESP32 board package in Arduino IDE.
 3. Selected the correct ESP32 board and COM port.
-4. Opened the **WiFiScan** example sketch.
+4. Opened the ESP32 CAM example sketch.
 5. Uploaded the sketch to the ESP32.
 6. Opened the Serial Monitor to view available Wi-Fi networks.
 
@@ -40,4 +40,4 @@ Arduino code would not load on ESP32-CAM.
 Installed the correct USB-to-serial driver. In this case, the **CH341SER** driver was used successfully. Some ESP32 boards also require the CH340/CH341 family driver before the COM port appears correctly in Arduino IDE. [web:16][web:19]
 
 ## Final Report
-The ESP32 was set up successfully in Arduino IDE, and the **WiFiScanner** sketch was uploaded and run. The Serial Monitor displayed nearby Wi-Fi networks and signal information, confirming the board was working as intended. [web:11][web:14]
+The ESP32 was set up successfully in Arduino IDE, and the CAM sketch was uploaded and run. The Serial Monitor displayed nearby Wi-Fi networks and signal information, confirming the board was working as intended. [web:11][web:14]
